@@ -46,12 +46,21 @@ main {
   padding: 10px;
   text-align: center;
   position: absolute;
+  background-color: rgb(122, 251, 187);
+  width: 50%;
+  height: 50%;
+}
+
+.close {
+  cursor: pointer;
 }
 
 .hidden {
   opacity: 0;
+  visibility: hidden;
 }
 
 .show {
   opacity: 1;
+  visibility: visible;
 }
