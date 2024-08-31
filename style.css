@@ -19,6 +19,25 @@ main {
   flex-direction: column;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-color: #efefef;
+  width: 30%;
+  height: 30%;
+}
+
+#openModalBtn {
+  width: 30%;
+  font-size: 1.1em;
+}
+
+#openModalBtn:hover {
+  cursor: pointer;
+}
 .modal {
   display: flex;
   flex-direction: column;
